@@ -5260,9 +5260,10 @@ ol.counter li:before {
 }
 
 .mainblock {
-	background: url(../img/bg.png) center no-repeat;
+	background: url(../img/bg.png) center/cover no-repeat;
 	overflow: hidden;
 	position: relative;
+	
 }
 .mainblock__image {
 	position: absolute;
